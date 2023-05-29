@@ -73,7 +73,7 @@ class MainActivity : AppCompatActivity() {
                 tvResult.text = "X won the game"
                 Toast.makeText(this@MainActivity, "X won the game", Toast.LENGTH_SHORT).show()
                 disableButtons()
-            } else if ((box1.text == "x" && box2.text == "x" && box3.text == "x") ||
+            } else if ((box1.text == "o" && box2.text == "o" && box3.text == "o") ||
                 (box4.text == "o" && box5.text == "o" && box6.text == "o") ||
                 (box7.text == "o" && box8.text == "o" && box9.text == "o") ||
                 (box1.text == "o" && box4.text == "o" && box7.text == "o") ||
